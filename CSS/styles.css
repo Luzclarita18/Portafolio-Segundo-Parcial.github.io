@@ -57,3 +57,30 @@ nav a:hover {
     float: right;
     margin-right: 35px;
 }
+
+#logo_bar {
+  margin-top: 145px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#skills_section {
+  margin-top: 199px;
+}
+.skill{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skill h3 {
+  margin-top: 64px;
+  text-align: center;
+}
+
+.skill p {
+  font-size: 18px;
+  margin-top: 22px;
+  text-align: center;
+}
