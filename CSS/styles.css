@@ -84,3 +84,16 @@ nav a:hover {
   margin-top: 22px;
   text-align: center;
 }
+
+#gallery_section .text-center {
+  margin-top: 158px;
+  margin-bottom: 55px;
+}
+
+.row h5{
+  margin-top: 31px;
+}
+
+.col-md-4 p{
+  margin-bottom: 65px;
+}
