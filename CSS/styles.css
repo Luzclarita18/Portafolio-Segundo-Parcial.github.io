@@ -71,7 +71,7 @@ nav a:hover {
 .skill{
   display: flex;
   align-items: center;
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .skill h3 {
@@ -90,10 +90,54 @@ nav a:hover {
   margin-bottom: 55px;
 }
 
-.row h5{
-  margin-top: 31px;
+
+.col-md-4 h5 {
+  margin-top:31px;
+  font-weight: 700;
 }
 
 .col-md-4 p{
   margin-bottom: 65px;
+}
+
+#final {
+  margin-top: 756px;
+}
+
+
+/* .cuadro-gris {
+  
+} */
+
+
+.cuadro-gris input  {
+  border: none;
+  padding: 5px;
+  width: 100%;
+  background-color: #F3F3F3;
+  padding: 17px 10px;
+  width: 100%x;
+  margin-bottom: 10px;
+}
+
+.cuadro-gris textarea {
+  background-color: #F3F3F3;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 100%;
+  resize: none;
+}
+
+.btn-submit {
+  background-color: #2D2D2D;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
