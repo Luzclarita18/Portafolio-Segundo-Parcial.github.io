@@ -94,6 +94,23 @@ nav a:hover {
   margin-top: 31px;
 }
 
-.col-md-4 p{
-  margin-bottom: 65px;
+#clients h2{
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 10%;
+}
+.box .texto{
+  padding-left: 80px;
+}
+.box p.textos{
+  margin-bottom: 60px;
+}
+.star-rating img{
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.box{
+  background-color: rgb(236, 236, 236);
+  padding: 20px;
 }
