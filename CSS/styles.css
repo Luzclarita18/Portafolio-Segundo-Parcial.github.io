@@ -121,6 +121,7 @@ margin-right:18px;
 
 .cuadro-gris input  {
   border: none;
+  outline: none;
   background-color: #F3F3F3;
   padding: 21px 0px 27px 32px;
   width: 97%;
