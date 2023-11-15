@@ -107,8 +107,8 @@ nav a:hover {
   margin-left:38px;
 }
 .col-md-6 p{
-  padding:13px 170px 29px 38px;
-
+  padding:7px 170px 15px 38px;
+  line-height:1.7;
 }
 
 .row .col {
