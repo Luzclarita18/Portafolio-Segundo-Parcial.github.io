@@ -99,6 +99,10 @@ nav a:hover {
 }
 
 @media (min-width: 360px) and (max-width: 932px) {
+    html,body{
+        width: 100%;
+        overflow-x: hidden;
+    }
   .logo {
     font-size: 18px;
     text-align: center;
@@ -118,6 +122,10 @@ nav a:hover {
   #hero {
     margin-top: 12px;
     text-align: center;
+  }
+
+  #hero br {
+    display: none;
   }
 
   .hero_subtitle {
@@ -147,7 +155,10 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 37px;
-    padding-left: 25%;
+  }
+  #logo_bar img{
+    display: block;
+    margin: auto;
   }
 
 }
@@ -166,6 +177,11 @@ nav a:hover {
   margin-top: 10px;
   text-align: center;
   margin-bottom: 15%;
+}
+
+#gallery_section img{
+    width: 100%;
+    object-fit: cover;
 }
 
 #gallery_section .text-center{
