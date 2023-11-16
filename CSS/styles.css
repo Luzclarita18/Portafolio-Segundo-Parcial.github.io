@@ -28,6 +28,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    margin-bottom: 100px;
 }
 
 #hero {
@@ -94,9 +95,20 @@ nav a:hover {
   margin-top: 31px;
 }
 
-.col-md-4 p{
-  margin-bottom: 65px;
+#clients h2{
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
+.box .texto{
+  padding-left: 64px;
+  
+}
+.box p.textos{
+  margin-bottom: 120px;
+  font-weight: 600;
+}
+
 
 @media (min-width: 360px) and (max-width: 932px) {
   .logo {
