@@ -108,6 +108,22 @@ nav a:hover {
   margin-bottom: 120px;
   font-weight: 600;
 }
+<<<<<<< Updated upstream
+=======
+.box {
+  background-color: rgb(236, 236, 236);
+    padding: 28.13px;
+    font-size: 18px;
+    margin: 20px;
+}
+.box img{
+  border-radius: 50%;
+  padding: 2px;
+}
+#final {
+  margin-top:115px;
+}
+>>>>>>> Stashed changes
 
 
 @media (min-width: 360px) and (max-width: 932px) {
@@ -200,6 +216,7 @@ nav a:hover {
   align-items: center;
   margin-top: 45px;
 }
+<<<<<<< Updated upstream
 
 .row h5{
   margin-top: 20px;
@@ -208,3 +225,23 @@ nav a:hover {
 .col-md-4 p{
   margin-bottom: 20%;
 }
+=======
+   
+  #final .col-md-6 h2{
+    margin: 13px 0px 38px 6px;
+    font-size:33px;    
+  }
+  .col-md-6 p{
+    padding: 7px 5px 15px 6px;
+  }
+  .row #stickers a{
+    margin-right:19px;
+  }
+   .cuadro-gris input{
+   margin-top:1px;
+  }
+  .cuadro-gris textarea{
+    margin-bottom:1px;
+  }
+  }
+>>>>>>> Stashed changes
