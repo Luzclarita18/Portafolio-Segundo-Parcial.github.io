@@ -28,6 +28,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    margin-bottom: 100px;
 }
 
 #hero {
@@ -94,17 +95,26 @@ nav a:hover {
   margin-top: 31px;
 }
 
-.col-md-4 p{
-  margin-bottom: 65px;
+#clients h2{
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
-
+.box .texto{
+  padding-left: 64px;
+  
+}
+.box p.textos{
+  margin-bottom: 120px;
+  font-weight: 600;
+}
 #final {
-  margin-top: 685px;
+  margin-top: 200px;
 }
 
 .col-md-6 h2 {
   margin-bottom:25px;
-  margin-left:38px;
+  margin-left:6px;
 }
 .col-md-6 p{
   padding:7px 170px 15px 6px;
@@ -208,8 +218,6 @@ margin-right:18px;
    grid-gap: 37px;
    padding-left: 8%;
   }
-
-
 #skills_section {
    margin-top: 85px;
 }
@@ -222,6 +230,11 @@ margin-right:18px;
    margin-top: 10px;
    text-align: center;
    margin-bottom: 15%;
+}
+
+#gallery_section img{
+    width: 100%;
+    object-fit: cover;
 }
 
 #gallery_section .text-center{
