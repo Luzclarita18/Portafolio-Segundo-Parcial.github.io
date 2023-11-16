@@ -102,20 +102,21 @@ nav a:hover {
   margin-top: 685px;
 }
 
-.col-md-6  h2 {
+.col-md-6 h2 {
   margin-bottom:25px;
   margin-left:38px;
 }
 .col-md-6 p{
-  padding:7px 170px 15px 38px;
+  padding:7px 170px 15px 6px;
   line-height:1.7;
 }
 
 .row .col {
-margin-left:41px;
+margin-left:7px;
 margin-top: 1px;
+margin-bottom: 50px;
 }
-.row .col a{
+.row a{
 margin-right:18px;
 }
 
@@ -126,7 +127,7 @@ margin-right:18px;
   padding: 21px 0px 27px 32px;
   width: 97%;
   margin-bottom: 16px;
-  margin-left:20px;
+  margin-left:6px;
 }
 
 .cuadro-gris textarea {
@@ -136,9 +137,7 @@ margin-right:18px;
   width: 97%;
   resize: none;
   padding: 30px 23px 150px 33px;
-  margin-left:20px;
-  margin-bottom:-25px;
-
+  margin-left:6px;
 }
 
 .btn-submit {
@@ -150,7 +149,7 @@ margin-right:18px;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  margin: 45px 18px;
+  margin: 45px 6px;
 }
 
 .btn-submit:hover{
@@ -162,18 +161,20 @@ margin-right:18px;
 }
 
 @media (min-width: 360px) and (max-width: 932px) {
+  html{
+    width:100%;
+    overflow-x:hidden; 
+  }
   .logo {
     font-size: 18px;
     text-align: center;
   }
-
   nav ul {
     float: none;
     justify-content: space-around;
     padding-left: none;
     padding-top: 13.5px;
   }
-
   nav a {
     font-size: 15px;
   }
@@ -182,64 +183,72 @@ margin-right:18px;
     margin-top: 12px;
     text-align: center;
   }
-
   .hero_subtitle {
     font-size: 20px;
     margin-top: 35px;
   }
-  
   .hero_title {
     font-size: 50px;
     margin-top: 10%;
     margin-bottom: 8%;
   }
-
   .hero_text {
     font-size: 18px;
     line-height: 150%;
   }
-
   .hero_image {
     float: none;
-    width: 100%;
+    width: 93%;
   }
-
 
   #logo_bar {
-    margin-top: 86px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 37px;
-    padding-left: 25%;
+   margin-top: 86px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 37px;
+   padding-left: 8%;
   }
 
-}
 
 #skills_section {
-  margin-top: 85px;
+   margin-top: 85px;
 }
-
 .skill h3 {
-  margin-top: 25px;
-  text-align: center;
+   margin-top: 25px;
+   text-align: center;
 }
-
 .skill p {
-  font-size: 18px;
-  margin-top: 10px;
-  text-align: center;
-  margin-bottom: 15%;
+   font-size: 18px;
+   margin-top: 10px;
+   text-align: center;
+   margin-bottom: 15%;
 }
 
 #gallery_section .text-center{
-  align-items: center;
-  margin-top: 45px;
+   align-items: center;
+   margin-top: 45px;
 }
-
 .row h5{
-  margin-top: 20px;
+   margin-top: 20px;
+}
+.col-md-4 p{
+   margin-bottom: 20%;
 }
 
-.col-md-4 p{
-  margin-bottom: 20%;
-}
+  #final .col-md-6 h2{
+    margin: 13px 0px 38px 6px;
+    font-size:33px;    
+  }
+  .col-md-6 p{
+    padding: 7px 5px 15px 6px;
+  }
+  .row #stickers a{
+    margin-right:19px;
+  }
+   .cuadro-gris input{
+   margin-top:1px;
+  }
+  .cuadro-gris textarea{
+    margin-bottom:1px;
+  }
+  }
